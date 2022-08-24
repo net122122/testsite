@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'debug_toolbar',
+    'ckeditor',
+    'ckeditor_uploader',
     'news.apps.NewsConfig',
 ]
 
@@ -134,6 +136,8 @@ MEDIA_URL = '/media/'
 INTERNAL_IPS = ['127.0.0.1', ]
 
 STATIC_ROOT = 'staticfiles'
+
+CKEDITOR_UPLOAD_PATH = "uploads/"
 
 
 
